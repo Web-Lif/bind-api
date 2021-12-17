@@ -1,0 +1,3 @@
+[submodule "third_party/libmicrohttpd"]
+	path = third_party/libmicrohttpd
+	url = git@github.com:Karlson2k/libmicrohttpd.git
