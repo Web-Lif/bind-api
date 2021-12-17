@@ -18,4 +18,4 @@ set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
 
-target_link_libraries(bind-api ${GTK3_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${GTK3_LIBRARIES})
